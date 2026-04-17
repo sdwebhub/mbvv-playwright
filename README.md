@@ -42,13 +42,7 @@ All environment settings are in [.env.playwright](.env.playwright):
 
 ```bash
 # Run all tests
-npm test
-
-# Run with Playwright debug inspector
-npx playwright test --debug
-
-# Record a new test with codegen
-npx playwright codegen https://mbvv.mahapolice.gov.in/tenant-info/
+npm run test
 ```
 
 ---
